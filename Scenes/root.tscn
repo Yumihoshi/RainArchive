@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpj5q6y2vn66k"]
+
+[ext_resource type="Material" uid="uid://cxr7ihe8nn4hv" path="res://addons/crt_shader/ShaderScreen.material" id="1_i04dx"]
+[ext_resource type="Texture2D" uid="uid://bae85ghwasra8" path="res://Assets/Imgs/shaderIcon.png" id="2_8pvmw"]
+
+[node name="Root" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+material = ExtResource("1_i04dx")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ShaderIcon" type="Sprite2D" parent="."]
+position = Vector2(974.99994, 513.00006)
+scale = Vector2(3.9964871, 2.1861827)
+texture = ExtResource("2_8pvmw")
